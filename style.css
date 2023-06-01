@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(45deg, rgb(39, 39, 245) , rgb(230, 85, 85));
+    height: 100vh;
+}
+input{
+    padding: 10px 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+td:first-child{
+    color: rgb(128, 0, 0);
+}
+header{
+    width: 100vw;
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    background: linear-gradient(45deg, rgb(39, 39, 245) , rgb(230, 85, 85));
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+marquee{
+    color: #fff;
+    font-size: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 2%;
+
+}
+main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    /* border: 2px dashed rgb(255, 0, 0); */
+    box-shadow: 
+    0px 0px 5px #0000007e,
+    0px 0px 10px #0000007e,
+    0px 0px 20px #0000007e,
+    0px 0px 40px #0000007e;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.tr1{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.search-div{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.search-div button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 80px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.search-div label{
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.search-div button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* produtos */
+#teclado , #moldem , #impressora , #mouse , #cpu , #pendrive , #cartao , #hd , #fone , #webcam{
+    display: none;
+}
+#teclado.on{
+    display: block;
+    padding: 50px;
+}
+#moldem.on{
+    display: block;
+    padding: 50px;
+}
+#impressora.on{
+    display: block;
+    padding: 50px;
+}
+#mouse.on{
+    display: block;
+    padding: 50px;
+}
+#cpu.on{
+    display: block;
+    padding: 50px;
+}
+#pendrive.on{
+    display: block;
+    padding: 50px;
+}
+#cartao.on{
+    display: block;
+    padding: 50px;
+}
+#hd.on{
+    display: block;
+    padding: 50px;
+}
+#fone.on{
+    display: block;
+    padding: 50px;
+}
+#webcam.on{
+    display: block;
+    padding: 50px;
+}
+
+@media screen and (min-width:200px) and (max-width:300px) {
+    header h1{
+        font-size: 22px;
+    }
+    table{
+        box-shadow: 
+        0px 0px 2px #0000007e,
+        0px 0px 4px #0000007e,
+        0px 0px 8px #0000007e,
+        0px 0px 16px #0000007e;
+        border: 1px solid #000;
+    }
+    input{
+        padding: 10px 20px;
+    }
+    .search-div{
+        flex-direction: column;
+    }
+    .search-div button{
+        padding: 10px 97px;
+        margin: 0;
+    }
+    marquee{
+        margin-left: 0%;
+    }
+    table{
+        font-size: 20px;
+    }
+
+    #teclado.on{
+        display: block;
+        padding: 50px 10px; 
+    }
+    #moldem.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #impressora.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #mouse.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #cpu.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #pendrive.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #cartao.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #hd.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #fone.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #webcam.on{
+        display: block;
+        padding: 50px 10px;
+    }
+}
+@media screen and (min-width:301px) and (max-width:768px){
+    header h1{
+        font-size: 22px;
+    }
+    table{
+        box-shadow: 
+        0px 0px 2px #0000007e,
+        0px 0px 4px #0000007e,
+        0px 0px 8px #0000007e,
+        0px 0px 16px #0000007e;
+        border: 1px solid #000;
+    }
+    input{
+        padding: 10px 20px;
+    }
+    .search-div{
+        flex-direction: column;
+    }
+    .search-div button{
+        padding: 10px 97px;
+        margin: 0;
+    }
+    marquee{
+        margin-left: 0%;
+    }
+    table{
+        font-size: 20px;
+    }
+
+    #teclado.on{
+        display: block;
+        padding: 50px 10px; 
+    }
+    #moldem.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #impressora.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #mouse.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #cpu.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #pendrive.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #cartao.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #hd.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #fone.on{
+        display: block;
+        padding: 50px 10px;
+    }
+    #webcam.on{
+        display: block;
+        padding: 50px 10px;
+    }
+}
